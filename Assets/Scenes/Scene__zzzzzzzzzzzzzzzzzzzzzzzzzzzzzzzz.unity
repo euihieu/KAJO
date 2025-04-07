@@ -578,7 +578,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'DO NOT TOUCH - MASTER SCENE
+  m_text: 'DO NOT TOUCH
 
 '
   m_isRightToLeft: 0

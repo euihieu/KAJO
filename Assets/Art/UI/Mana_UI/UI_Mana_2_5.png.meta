@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 4084fd6cf65dee94abdd8f375533fb0e
+guid: ad06b2b1b3469ed4a94697af2d929c38
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2891405259576565260
-    second: 3_5_mana_UI_0
+      213: 7606585006800423021
+    second: 2_5_mana_UI_0
   - first:
-      213: 4935336525495913602
-    second: 3_5_mana_UI_1
+      213: 805514104267716579
+    second: 2_5_mana_UI_1
   - first:
-      213: 2402912979200585580
-    second: 3_5_mana_UI_2
+      213: -3923463590078351125
+    second: 2_5_mana_UI_2
   - first:
-      213: -5018927141444986451
-    second: 3_5_mana_UI_3
+      213: 1121662973266859291
+    second: 2_5_mana_UI_3
   - first:
-      213: -5317274262003611023
-    second: 3_5_mana_UI_4
+      213: 6956527167839423192
+    second: 2_5_mana_UI_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -108,17 +108,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 3_5_mana_UI_0
+      name: 2_5_mana_UI_0
       rect:
         serializedVersion: 2
-        x: 56
+        x: 55
         y: 57
-        width: 57
-        height: 63
+        width: 56
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f12e395c3aafd7d0800000000000000
-      internalID: -2891405259576565260
+      spriteID: d68c62423c4009960800000000000000
+      internalID: 7606585006800423021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3_5_mana_UI_1
+      name: 2_5_mana_UI_1
       rect:
         serializedVersion: 2
-        x: 144
-        y: 78
+        x: 142
+        y: 79
         width: 50
-        height: 62
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28cc131eb66dd7440800000000000000
-      internalID: 4935336525495913602
+      spriteID: 3e7b17e5fc2cd2b00800000000000000
+      internalID: 805514104267716579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3_5_mana_UI_2
+      name: 2_5_mana_UI_2
       rect:
         serializedVersion: 2
-        x: 229
+        x: 227
         y: 57
-        width: 57
-        height: 63
+        width: 56
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c6f2d679f9cd85120800000000000000
-      internalID: 2402912979200585580
+      spriteID: be87338f6ae0d89c0800000000000000
+      internalID: -3923463590078351125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3_5_mana_UI_3
+      name: 2_5_mana_UI_3
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
+        x: 0
+        y: 2
         width: 60
-        height: 60
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +219,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da9da943b50395ab0800000000000000
-      internalID: -5018927141444986451
+      spriteID: b1597470882f09f00800000000000000
+      internalID: 1121662973266859291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3_5_mana_UI_4
+      name: 2_5_mana_UI_4
       rect:
         serializedVersion: 2
-        x: 280
+        x: 277
         y: 0
         width: 60
-        height: 57
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +241,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17a82f71b3f3536b0800000000000000
-      internalID: -5317274262003611023
+      spriteID: 8da4c651a9c8a8060800000000000000
+      internalID: 6956527167839423192
       vertices: []
       indices: 
       edges: []
@@ -234,7 +260,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      2_5_mana_UI_0: 7606585006800423021
+      2_5_mana_UI_1: 805514104267716579
+      2_5_mana_UI_2: -3923463590078351125
+      2_5_mana_UI_3: 1121662973266859291
+      2_5_mana_UI_4: 6956527167839423192
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

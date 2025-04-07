@@ -1,34 +1,22 @@
 fileFormatVersion: 2
-guid: 2de3406753c3a2e4bbe7295e6f9ff110
+guid: 86c8036858e5fc945a5e9b163cea30fb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5946004902017328153
-    second: Brightness_0
+      213: 2829063797659441187
+    second: 1_5_mana_UI_0
   - first:
-      213: 4505288877366437403
-    second: Brightness_1
+      213: 3564444370339354292
+    second: 1_5_mana_UI_1
   - first:
-      213: 3252164016277709773
-    second: Brightness_2
+      213: -214822376048465073
+    second: 1_5_mana_UI_2
   - first:
-      213: 3494028838437643174
-    second: Brightness_3
+      213: -2103921732673366207
+    second: 1_5_mana_UI_3
   - first:
-      213: -2207221798236463320
-    second: Brightness_4
-  - first:
-      213: 1904163173108207106
-    second: Brightness_5
-  - first:
-      213: 5833919116009133586
-    second: Brightness_6
-  - first:
-      213: 4125036740949333601
-    second: Brightness_7
-  - first:
-      213: 78564048153127203
-    second: Brightness_8
+      213: -3999772365348808935
+    second: 1_5_mana_UI_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -120,17 +108,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Brightness_0
+      name: 1_5_mana_UI_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 69
-        width: 29
-        height: 30
+        x: 56
+        y: 57
+        width: 57
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 914697184f3748250800000000000000
-      internalID: 5946004902017328153
+      spriteID: 3289862f88ad24720800000000000000
+      internalID: 2829063797659441187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Brightness_1
+      name: 1_5_mana_UI_1
       rect:
         serializedVersion: 2
-        x: 44
-        y: 77
-        width: 20
-        height: 33
+        x: 144
+        y: 78
+        width: 50
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b16e1f92d50068e30800000000000000
-      internalID: 4505288877366437403
+      spriteID: 4b6d7b30543777130800000000000000
+      internalID: 3564444370339354292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Brightness_2
+      name: 1_5_mana_UI_2
       rect:
         serializedVersion: 2
-        x: 67
-        y: 69
-        width: 30
-        height: 29
+        x: 229
+        y: 57
+        width: 57
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,108 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc36a8d21f1022d20800000000000000
-      internalID: 3252164016277709773
+      spriteID: f4b63d9ef2cc40df0800000000000000
+      internalID: -214822376048465073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Brightness_3
+      name: 1_5_mana_UI_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 46
-        width: 32
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a3eb0667b84d7030800000000000000
-      internalID: 3494028838437643174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Brightness_4
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 37
-        width: 39
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 82fdd97087f5e51e0800000000000000
-      internalID: -2207221798236463320
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Brightness_5
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 46
-        width: 34
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 20ece773152fc6a10800000000000000
-      internalID: 1904163173108207106
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Brightness_6
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 13
-        width: 30
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 216d51ec68e36f050800000000000000
-      internalID: 5833919116009133586
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Brightness_7
-      rect:
-        serializedVersion: 2
-        x: 44
+        x: 1
         y: 0
-        width: 20
-        height: 34
+        width: 60
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,20 +219,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16658bd7f031f3930800000000000000
-      internalID: 4125036740949333601
+      spriteID: 14797c8c45e5dc2e0800000000000000
+      internalID: -2103921732673366207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Brightness_8
+      name: 1_5_mana_UI_4
       rect:
         serializedVersion: 2
-        x: 68
-        y: 13
-        width: 29
-        height: 30
+        x: 280
+        y: 0
+        width: 60
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,8 +241,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 329a846e59d171100800000000000000
-      internalID: 78564048153127203
+      spriteID: 917d5f4b934fd78c0800000000000000
+      internalID: -3999772365348808935
       vertices: []
       indices: 
       edges: []
@@ -334,7 +260,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      1_5_mana_UI_0: 2829063797659441187
+      1_5_mana_UI_1: 3564444370339354292
+      1_5_mana_UI_2: -214822376048465073
+      1_5_mana_UI_3: -2103921732673366207
+      1_5_mana_UI_4: -3999772365348808935
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: dad39e1ea6096ff45988c6ab65269fe5
+guid: 3d7270409f0861d4aa0e102125dec0be
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6581272430807230081
-    second: Curve_line_button_0
+      213: 2422009483503439959
+    second: Moshroom_button_right_0
+  - first:
+      213: 2734123154371473700
+    second: Moshroom_button_right_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +99,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Curve_line_button_0
+      name: Moshroom_button_right_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 480
-        height: 140
+        x: 2
+        y: 21
+        width: 39
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +144,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18626502860655b50800000000000000
-      internalID: 6581272430807230081
+      spriteID: 75099dafac4bc9120800000000000000
+      internalID: 2422009483503439959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moshroom_button_right_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 21
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4217b7cd58e81f520800000000000000
+      internalID: 2734123154371473700
       vertices: []
       indices: 
       edges: []
@@ -134,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Moshroom_button_right_0: 2422009483503439959
+      Moshroom_button_right_1: 2734123154371473700
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

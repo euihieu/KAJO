@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 33b2158a06748794c9f44d89c6a8dda3
+guid: 81bda9b112cdab94e8d83dc5c311ac23
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2350125094354129815
-    second: Studio_666_logo_0
+      213: 2959623591353677108
+    second: 3_5_health_UI_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Studio_666_logo_0
+      name: 3_5_health_UI_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 8
-        width: 325
-        height: 310
+        y: 31
+        width: 331
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79395b262525d9020800000000000000
-      internalID: 2350125094354129815
+      spriteID: 435708fb9f1b21920800000000000000
+      internalID: 2959623591353677108
       vertices: []
       indices: 
       edges: []
@@ -134,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      3_5_health_UI_0: 2959623591353677108
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

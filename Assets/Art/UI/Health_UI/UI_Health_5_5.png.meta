@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: 86c8036858e5fc945a5e9b163cea30fb
+guid: 3dcb6f4f5aedaf34fb14ff38114564fe
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2829063797659441187
-    second: 1_5_mana_UI_0
-  - first:
-      213: 3564444370339354292
-    second: 1_5_mana_UI_1
-  - first:
-      213: -214822376048465073
-    second: 1_5_mana_UI_2
-  - first:
-      213: -2103921732673366207
-    second: 1_5_mana_UI_3
-  - first:
-      213: -3999772365348808935
-    second: 1_5_mana_UI_4
+      213: -3706472027213072784
+    second: 5_5_health_UI_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -108,17 +96,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1_5_mana_UI_0
+      name: 5_5_health_UI_0
       rect:
         serializedVersion: 2
-        x: 56
-        y: 57
-        width: 57
-        height: 63
+        x: 0
+        y: 31
+        width: 331
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,96 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3289862f88ad24720800000000000000
-      internalID: 2829063797659441187
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1_5_mana_UI_1
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 78
-        width: 50
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b6d7b30543777130800000000000000
-      internalID: 3564444370339354292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1_5_mana_UI_2
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 57
-        width: 57
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f4b63d9ef2cc40df0800000000000000
-      internalID: -214822376048465073
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1_5_mana_UI_3
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 0
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 14797c8c45e5dc2e0800000000000000
-      internalID: -2103921732673366207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1_5_mana_UI_4
-      rect:
-        serializedVersion: 2
-        x: 280
-        y: 0
-        width: 60
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 917d5f4b934fd78c0800000000000000
-      internalID: -3999772365348808935
+      spriteID: 076fa083457ff8cc0800000000000000
+      internalID: -3706472027213072784
       vertices: []
       indices: 
       edges: []
@@ -234,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      5_5_health_UI_0: -3706472027213072784
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -86,7 +86,7 @@ public class PlayerController : MonoBehaviour
         Gizmos.DrawWireCube(DownAttackTransform.position, DownAttackArea);
     }
 
-    
+
 
     void Update()
     {
@@ -99,11 +99,11 @@ public class PlayerController : MonoBehaviour
         Jump();
         StartDash();
         Attack();
-        
-        
-        
-    }   
-    
+
+
+
+    }
+
     void GetInputs()
     {
         xAxis = Input.GetAxisRaw("Horizontal");
@@ -113,11 +113,11 @@ public class PlayerController : MonoBehaviour
 
     void Flip()
     {
-        if(xAxis < 0)
+        if (xAxis < 0)
         {
             transform.localScale = new Vector2(-Mathf.Abs(transform.localScale.x), transform.localScale.y);
         }
-        else if(xAxis > 0)
+        else if (xAxis > 0)
         {
             transform.localScale = new Vector2(Mathf.Abs(transform.localScale.x), transform.localScale.y);
         }
@@ -161,16 +161,16 @@ public class PlayerController : MonoBehaviour
     void Attack()
     {
         timeSinceAttack += Time.deltaTime;
-        if(attack && timeSinceAttack >= timeBetweenAttack)
+        if (attack && timeSinceAttack >= timeBetweenAttack)
         {
             timeSinceAttack = 0;
             anim.SetTrigger("Attacking");
 
-            if(yAxis == 0 || yAxis < 0 && Grounded())
+            if (yAxis == 0 || yAxis < 0 && Grounded())
             {
                 Hit(SideAttackTransform, SideAttackArea);
             }
-            else if(yAxis > 0)
+            else if (yAxis > 0)
             {
                 Hit(UpAttackTransform, UpAttackArea);
             }
@@ -185,7 +185,7 @@ public class PlayerController : MonoBehaviour
     {
         Collider2D[] objectsToHit = Physics2D.OverlapBoxAll(_attackTransform.position, _attackArea, 0, attackableLayer);
 
-        if(objectsToHit.Length > 0)
+        if (objectsToHit.Length > 0)
         {
             Debug.Log("Hit");
         }
@@ -193,7 +193,7 @@ public class PlayerController : MonoBehaviour
 
     public bool Grounded()
     {
-        if (Physics2D.Raycast(groundCheckPoint.position, Vector2.down, groundCheckY, whatIsGround) 
+        if (Physics2D.Raycast(groundCheckPoint.position, Vector2.down, groundCheckY, whatIsGround)
             || Physics2D.Raycast(groundCheckPoint.position + new Vector3(groundCheckX, 0, 0), Vector2.down, groundCheckY, whatIsGround)
             || Physics2D.Raycast(groundCheckPoint.position + new Vector3(-groundCheckX, 0, 0), Vector2.down, groundCheckY, whatIsGround))
         {
